@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: payments.gatewayRetryV2
+flagType: boolean
+description: New payment gateway retry logic (fix for test_retry_on_gateway_timeout). Ship dark, enable after the release.
+labels:
+  - payments
+  - release-2026.11
+
+availableValues:
+
+isPermanent: false
