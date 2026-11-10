@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: notifications.smsFallback
+flagType: boolean
+description: Fall back to SMS when push notifications fail.
+labels:
+  - notifications
+
+availableValues:
+
+isPermanent: false
