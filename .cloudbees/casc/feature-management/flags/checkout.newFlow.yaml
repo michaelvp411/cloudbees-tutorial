@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: checkout.newFlow
+flagType: boolean
+description: Redesigned mobile checkout flow, rolled out gradually.
+labels:
+  - checkout
+  - release-2026.11
+
+availableValues:
+
+isPermanent: false
